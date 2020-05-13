@@ -13,7 +13,7 @@ class face_bot:
     def __init__(self):
         self.imagem = None
         self.mensagem = None
-        self.palavra = 'mulher'
+        self.palavra = None
         options = webdriver.FirefoxOptions()
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Firefox(executable_path=r'./geckodriver.exe')
